@@ -5,12 +5,12 @@
 
 == Installation ==
 
-    ##$ mkdir -p ~/dev/lilapi ##
-    ##$ cd ~/dev/lilapi ##
-    ##$ virtualenv --no-site-packages . ##
-    ##$ git clone git@github.com:Lilas/lilapi.git lilapi ##
-    ##$ . ./bin/activate ##
-    ##$ cd lilapi/ ##
+    $ mkdir -p ~/dev/lilapi
+    $ cd ~/dev/lilapi
+    $ virtualenv --no-site-packages .
+    $ git clone git@github.com:Lilas/lilapi.git lilapi
+    $ . ./bin/activate
+    $ cd lilapi/
 
     $ pip install -r requirements.txt
 
