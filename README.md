@@ -1,6 +1,7 @@
 === Lilapi ===
-Contributors: Lilas
-Version: 1.0
+
+    Contributors: Lilas
+    Version: 1.0
 
 == Installation ==
 
@@ -15,5 +16,5 @@ Version: 1.0
 
 == Documentation ==
 
-https://django-filter.readthedocs.org/en/latest/index.html
-http://www.django-rest-framework.org/
+    https://django-filter.readthedocs.org/en/latest/index.html
+    http://www.django-rest-framework.org/
