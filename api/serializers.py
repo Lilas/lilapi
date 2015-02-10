@@ -43,7 +43,8 @@ class ResumeSerializer(serializers.HyperlinkedModelSerializer):
 
     class Meta:
         model = Resume
-        fields = ('name', 'subname', 'dateStart', 'dateEnd', 'mission', 'resume_type', )
+        fields = ('name', 'subname', 'dateStart', 'dateEnd',
+                  'mission', 'resume_type', )
 
 
 class ResumeTypeSerializer(serializers.HyperlinkedModelSerializer):
