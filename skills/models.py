@@ -1,5 +1,6 @@
 from django.db import models
 
+
 class Type(models.Model):
 
     class Meta:
@@ -9,6 +10,7 @@ class Type(models.Model):
 
     def __unicode__(self):
         return self.title
+
 
 class Skill(models.Model):
     name = models.CharField(verbose_name="Name of the skill",
@@ -26,7 +28,6 @@ class SkillType(Type):
 
     class Meta:
         verbose_name = 'Type de Skill'
-
 
 
 class Option(models.Model):
